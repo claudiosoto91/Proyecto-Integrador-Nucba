@@ -653,9 +653,11 @@ footer h6{
     }
 }
 @media only screen and (max-width: 440px){
+
     .title{
-        padding: 0 15px;
+        font-size: .9em;
     }
+ 
     .categorias{
         width: 90%;
         height: 400px;
@@ -711,7 +713,11 @@ footer h6{
 }
 @media only screen and (max-width: 368px){
     .title{
-        font-size: .9em;
+        font-size: 1em;
+    }
+    .title-span{
+        font-size: 1.2em;
+        font-weight: 900;
     }
 
     .registro{
@@ -753,3 +759,4 @@ footer h6{
         width: 100%;
     }
 }
+
