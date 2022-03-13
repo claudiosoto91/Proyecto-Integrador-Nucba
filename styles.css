@@ -583,8 +583,8 @@ footer h6{
         order: 2;
     }
     .gallery{
-        grid-template-columns: 50% 50%;
-        grid-template-rows: repeat(3, 50%);
+        grid-template-columns: 200px 200px;
+        grid-template-rows: repeat(3, 200px);
     }
 
     .gallery-img1{
@@ -656,29 +656,6 @@ footer h6{
     .title{
         padding: 0 15px;
     }
-    .categorias-txt{
-        font-size: 1.1em;
-    }
-    .registro{
-        font-size: 1.1em;
-    }
-    .contenedor-footer{
-        width: 100%;
-    }
-    .boton-registro{
-        margin: auto;
-    }
-    .servicios-footer{
-        width: 50%;
-    }
-    .contacto-footer{
-        width: 50%;
-    }
-}
-@media only screen and (max-width: 368px){
-    .title{
-        font-size: .9em;
-    }
     .categorias{
         width: 90%;
         height: 400px;
@@ -713,6 +690,30 @@ footer h6{
         grid-column: 1 / 2;
         grid-row: 6;
     }
+    .categorias-txt{
+        font-size: 1.1em;
+    }
+    .registro{
+        font-size: 1.1em;
+    }
+    .contenedor-footer{
+        width: 100%;
+    }
+    .boton-registro{
+        margin: auto;
+    }
+    .servicios-footer{
+        width: 50%;
+    }
+    .contacto-footer{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 368px){
+    .title{
+        font-size: .9em;
+    }
+
     .registro{
         height: auto;
         padding: 10px;
