@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Silaky | PetShop</title>
+</head>
+<body>
+    
+    <div id="cabecera" class="cabecera">
+        <div class="title">
+            <h1 class="title-txt">PetShop | <span class="title-span">Silaky</span> </h1>
+            <h3 class="title-frase">Mantiene saludables a tus Mascotas</h3>
+        </div>
+
+        <div class="logo">
+            <img src="./img/Silaky.png" alt="logo-silaky">
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li class="enlaces"><a href="#inicio">Inicio</a></li>
+                <li class="enlaces"><a href="#productos">Productos</a></li>
+                <li class="enlaces"><a href="#contacto">Contacto</a></li>
+                <li class="enlaces"><a href="./login.html">Registrarse</a></li>
+                <li class="enlaces"><a href="./login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+
+
+        
+         <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+             <div class="bar1"></div>
+             <div class="bar2"></div>
+             <div class="bar3"></div>
+             <ul class="mobile-menu">
+                <li class="enlaces"><a  href="./index.html">Inicio</a></li>
+                <li class="enlaces"><a  href="#productos">Productos</a></li>
+                <li class="enlaces"><a  href="#contacto">Contacto</a></li>
+                <li class="enlaces"><a href="#login">Registrarse</a></li>
+                <li class="enlaces"><a href="./login.html">Ingresar</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+
+    <div class="slider-frame">
+        <ul>
+            <li><img src="./img/cartel1.png" alt=""></li>
+            <li><img src="./img/cartel2.png" alt=""></li>
+            <li><img src="./img/cartel3.png" alt=""></li>
+            <li><img src="./img/cartel4.png" alt=""></li>
+    
+        </ul>
+    </div>
+
+    <div class="info">
+        <div class="sub-info">
+            <div class="sub-info icon">
+                <ion-icon name="card-outline"></ion-icon>
+            </div>
+            <div class="sub-info text">
+                <p>Medios de Pago</p>
+            </div>
+        </div>
+        <div class="sub-info">
+            <div class="sub-info icon">
+                <ion-icon name="rocket-outline"></ion-icon>
+            </div>
+            <div class="sub-info text">
+                <p>Envíos Gratis</p>
+            </div>
+        </div>
+        <div class="sub-info">
+            <div class="sub-info icon">
+                <ion-icon name="storefront-outline"></ion-icon>
+            </div>
+            <div class="sub-info text">
+                <p>Retiro en Sucursal</p>
+            </div>
+        </div>
+        <div class="sub-info">
+            <div class="sub-info icon">
+                <ion-icon name="headset-outline"></ion-icon>
+            </div>
+            <div class="sub-info text">
+                <p>Atención Personalizada</p>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section id="productos" class="categorias">
+            <h2 class="categorias-txt">Productos para todas las Mascotas</h2>
+            <div class="linea"></div>
+                <section class="gallery">
+                    <figure class="gallery-img gallery-img1">
+                        <img src="./img/perro.webp" class="img-animales">
+                    </figure>
+                    <figure class="gallery-img gallery-img2">
+                        <img src="./img/ave.webp" class="img-animales">
+                    </figure>
+                    <figure class="gallery-img gallery-img3">
+                        <img src="./img/gato.webp" class="img-animales">
+                    </figure>
+                    <figure class="gallery-img gallery-img4">
+                        <img src="./img/pez.webp" class="img-animales">
+                    </figure>
+                    <figure class="gallery-img gallery-img5">
+                        <img src="./img/reptil.webp" class="img-animales">
+                    </figure>
+                    <figure class="gallery-img gallery-img6">
+                        <img src="./img/roedor.webp" class="img-animales">
+                    </figure>
+                  
+                </section>
+        </section>
+
+        <section class="registro">
+            <div class="container-registro">
+                <p class="txt-registro">Registrate y obtené 20% de Descuento <a class="boton-registro" href="#">Registro</a></p>
+            </div>
+        </section>
+
+        <section id="marcas" class="contenedor-marcas">
+            <h3 class="marcas-txt">Marcas Destacadas</h3>
+            <div class="linea-marca"></div>
+            <div class="marcas">
+                <img class="marcas-img" src="./img/logo__1.webp" alt="">
+                <img class="marcas-img" src="./img/logo_2.webp" alt="">
+                <img class="marcas-img" src="./img/logo_3.webp" alt="">
+                <img class="marcas-img" src="./img/logo_4.webp" alt="">
+                <img class="marcas-img" src="./img/logo_5.webp" alt="">
+                <img class="marcas-img" src="./img/logo_6.webp" alt="">
+                <img class="marcas-img" src="./img/logo_7.webp" alt="">
+                <img class="marcas-img" src="./img/logo_8.webp" alt="">
+            </div>
+        </section>
+    </main>
+
+    <section id="contacto" class="contacto">
+        <div class="contacto-txt">
+            <h3>¿Quíenes Somos?</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium ullam esse deleniti beatae provident reiciendis numquam. Officia iusto, praesentium nulla quasi nihil nam et. Suscipit neque dolorum, ab corrupti sint aliquam optio quasi commodi culpa maiores itaque reprehenderit blanditiis eaque vitae asperiores! Illo laudantium eos eligendi magnam neque porro similique, excepturi consectetur? Aliquam saepe dolor dolores, laboriosam veritatis doloremque voluptates repellat? Officiis nisi libero voluptates.</p>
+        </div>
+        <form class="form">
+            <div class="form__container">
+                <h2 class="form__title">Contáctanos</h2>
+                <input type="text" class="form__input" placeholder="Nombre">
+                <input type="email" class="form__input" placeholder="Email">
+                <textarea class="form__input form__input--message" placeholder="Mensaje" cols="5" rows="5"></textarea>
+    
+                <input type="submit" value="Enviar" class="form__cta">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="logo-footer">
+                <img src="./img/Silaky.png" alt="logo-silaky">
+            </div>
+            <div class="servicios-footer">
+                <ul>
+                    <li>Servicios</li>
+                    <li>Envíos a Domicilio</li>
+                    <li>Peluquería</li>
+                    <li>Consultas</li>
+                    <li>Productos</li>
+                </ul>
+            </div>
+            <div class="contacto-footer">
+                <div class="redes-footer">
+                    <div class="social"><img src="./img/logo-instagram.svg" alt=""></div>
+                    <div class="social"><img src="./img/logo-facebook.svg" alt=""></div>
+                    <div class="social"><img src="./img/logo-whatsapp.svg" alt=""></div>
+                    <div class="social"><img src="./img/mail-outline.svg" alt=""></div>
+                </div>
+                <div class="frase-footer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, quis. Incidunt provident in distinctio corporis.</p>
+                </div>
+            </div>
+        </div>  
+ 
+
+        <h6>Todos los Derechos Reservados - 2022</h6>
+    </footer>
+
+    <a class="subir" href="#cabecera"> <img src="./img/chevron-up-circle-outline.svg" alt=""></a>
+
+</body>
+
+<script>
+    function toggleMobileMenu(menu){
+        menu.classList.toggle('open');
+    }
+</script>
+
+</html>

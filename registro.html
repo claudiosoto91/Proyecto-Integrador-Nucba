@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style-registro.css">
+    <title>PetShop | Silaky - Registrarse</title>
+</head>
+<body>
+    <div id="cabecera" class="cabecera">
+        <div class="title">
+            <h1 class="title-txt">PetShop | <span class="title-span">Silaky</span> </h1>
+            <h3 class="title-frase">Mantiene saludables a tus Mascotas</h3>
+        </div>
+
+        <div class="logo">
+            <img src="./img/Silaky.png" alt="logo-silaky">
+        </div>
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li class="enlaces"><a href="./index.html">Inicio</a></li>
+                <li class="enlaces"><a href="./registro.html">Registrarse</a></li>
+                <li class="enlaces"><a href="./login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+
+
+        
+         <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+             <div class="bar1"></div>
+             <div class="bar2"></div>
+             <div class="bar3"></div>
+             <ul class="mobile-menu">
+                <li class="enlaces"><a  href="./index.html">Inicio</a></li>
+                <li class="enlaces"><a href="./registro.html">Registrarse</a></li>
+                <li class="enlaces"><a href="./login.html">Ingresar</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="contenedor-form">
+                <form class="form">
+                    <h2 class="form__title">Registrate</h2>
+                    <p class="form__paragraph">Sumate a Silaky y recibí grandes beneficios</p>
+            
+                    <div class="form__container">
+                        <div class="form__group">
+                            <input type="text" id="name" class="form__input" placeholder=" ">
+                            <label for="name" class="form__label">Nombre:</label>
+                            <span class="form__line"></span>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" id="apellido" class="form__input" placeholder=" ">
+                            <label for="name" class="form__label">Apellido:</label>
+                            <span class="form__line"></span>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" id="user" class="form__input" placeholder=" ">
+                            <label for="user" class="form__label">Usuario:</label>
+                            <span class="form__line"></span>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" id="password" class="form__input" placeholder=" ">
+                            <label for="password" class="form__label">Contraseña:</label>
+                            <span class="form__line"></span>
+                        </div>
+            
+                        <input type="submit" class="form__submit" value="Registrarse">
+                    </div>
+                </form>
+            <div class="imagen-form">
+                <img src="./img/gato-registro (2).png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+
+<script>
+    function toggleMobileMenu(menu){
+        menu.classList.toggle('open');
+    }
+</script>
+
+</html>
