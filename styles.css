@@ -222,8 +222,8 @@ ul a{
     margin: auto;
     justify-content: center;
     display: grid;
-    grid-template-columns: repeat(3,25%);
-    grid-template-rows: repeat(2, 25%);
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2, 200px);
     gap: 20px;
 }
 .gallery-img1{
@@ -611,7 +611,9 @@ footer h6{
         grid-row: 3;
     }
 
-
+    .boton-registro{
+        margin: auto;
+    }
     .contacto{
         flex-direction: column;
         align-items: center;
@@ -642,16 +644,27 @@ footer h6{
     .redes-footer{
         padding: 0;
     }
-
+    .servicios-footer{
+        width: 50%;
+        text-align: center;
+    }
+    .contacto-footer{
+        width: 50%;
+    }
 }
 @media only screen and (max-width: 440px){
+    .title{
+        padding: 0 15px;
+    }
     .categorias-txt{
         font-size: 1.1em;
     }
     .registro{
         font-size: 1.1em;
     }
-    
+    .contenedor-footer{
+        width: 100%;
+    }
     .boton-registro{
         margin: auto;
     }
